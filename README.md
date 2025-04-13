@@ -32,12 +32,12 @@ Ejemplo:
 
 3. Uso vía Consola:
 
-   python main_str.py
+  ``` python main_str.py```
    
    Sigue las instrucciones en la terminal para interactuar con SimpleBot.
 
 5. Uso con Streamlit
 
-streamlit run main_str.py
+```streamlit run main_str.py```
 
 Este comando abrirá una interfaz gráfica en tu navegador para interactuar con el bot.
