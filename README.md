@@ -18,8 +18,8 @@ Acceso a la API de OpenAI (necesitarás disponer de una clave API de OpenAI).
 
 1. Clonar el Repositorio:
 
-git clone https://github.com/Hcardenass/SimpleBotChatGPT.git
-cd SimpleBotChatGPT
+```git clone https://github.com/Hcardenass/SimpleBotChatGPT.git```
+```cd SimpleBotChatGPT```
 
 2. Configurar la API:
 
@@ -27,8 +27,8 @@ Edita el archivo api_key.txt e introduce tu clave API de OpenAI.
 
 Ejemplo:
 
-with open("api_key.txt") as archivo:
-    openai.api_key = archivo.readline().strip()
+```with open("api_key.txt") as archivo:```
+    ```openai.api_key = archivo.readline().strip()```
 
 3. Uso vía Consola:
 
